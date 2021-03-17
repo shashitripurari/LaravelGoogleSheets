@@ -38,3 +38,11 @@ https://docs.google.com/spreadsheets/d/1S_y2W_CfSFnOUOv3MMKdCAtV9chztPST5XlT8sep
 
 - SPREADSHEET_ID="1S_y2W_CfSFnOUOv3MMKdCAtV9chztPST5XlT8sepN78"
 - SHEET_NAME="Users"
+
+## Steps to Test
+
+- Go to the project url
+- Register with email
+- Visit /users 
+- Enter spreadsheet Id and Sheetname
+- Check for the message Import was successful
