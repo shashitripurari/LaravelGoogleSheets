@@ -15,6 +15,10 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <div class="text-center">
+                        <a type="button" class="btn btn-primary" href="{{route('users.index')}}"> Import Users From Google Sheets</a>
+                    </div>
                 </div>
             </div>
         </div>
