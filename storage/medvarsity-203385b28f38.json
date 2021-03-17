@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "medvarsity",
+  "private_key_id": "203385b28f3826cc395662c7c07875aedf921b13",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDoytfoa+C1bm6N\nVdoz3hFUWn9KgemJDCSj9MMdXmJwKeh1GQz/VHbD2+wZtDkkFNbqCjRDOH7OmSBQ\n+18WycJoyQ9ajnMFrmjGBnw4yvHIUu/Zc1diBGdQDMOoghEIqZ6vBrQ3NKlufUmm\nFfm9LDzs3X8OgIiqVKQYlSXtl7Q12zEdCsx+uBMIPuwFr6s5LnDI3Jf8czrgPbfb\nRY94K8UwCOGscz1JS8Rw1vdAtmMiK0xs39GzmHC4xs9BtRTy80NjFQiTGuzN7SgJ\nqkO/uGz8vqczbSFV5uAesJhEBd+sTkzCVFp/PHpxXlHAi4Q9HQ1NFeOeYitJ1+ZR\nGecaQGtNAgMBAAECggEAB+9yMLAMtuKOzi6RA5ecS53SHP4UseFCFnyvcf7XqC8l\nh2hVMxbz/XUvtSiZkgtL0CqM4YW5fN1nZptLAIHcKKpB5bpZXWY2mBl8foscdtGs\n72KpJeQ0iVwGB2Z3oi32BM1bs04OQH/w1MKHAtXRNdnPDPWAsx2zgksDQfgb4oIH\no65YNz0axYeVv/d+B4lY42b0lWliMH8BjFIbUEiYLeMiGnFF0S924IysVMv0GdMr\nVOkj7orlbR8W3l2rBespppSHe9dOIxgDV6TIa7tUkzUO/eXp3PZ8AZH5p5b16dpA\nFSmIxBU+rjT75SpCeBTq67xfGg+oLn8H3Lo/Rn5WQQKBgQD2lKehtSqxKzCGKYnJ\nyqvy8cdw/Ov8kgOJOMt1LFE6Fj7EbE1zu90/WcrxBmCGy7Vk0u8h2fbPN7talL/e\ntsGs2zLpGvYPO92Z6X0tBMmof2YjvjrSK5jOmTZFlYTLa21ahernrmhlGuQAUDED\nTt4mnXNHW+bqJxbCG/OT/JxxxQKBgQDxr1nISQ6kQStbmRVhMv4z9OUGaWppZ/z8\nD9aBnTmaK/lT2GXt8MBU9aMvir8u3q4m2Ol8UdvY9wQfeynD60UePOtIc3hKnfYQ\nzPeuZFRC8DWnjzhLoIZWRU7d2NU/P0Fw0EfEOGtCF32D17LIKwzS5riEJUm4+2zC\nmjU4rLJT6QKBgAjQwbl3R6Jz39U8EPAE7ebOnAm/ERTDh5rVS/jRb8n6152gHZjA\no6VLKYU6bCMFj2OeYuw75aX84RbY8I8ey4fJgmVxEFD1G/QPs+jzHd6HR3iJqYKw\nClOAiL8uHERFf/BXj1FfG95ZesNEGqx6mliZEnD/qR6/7QFdjHTC+DjdAoGAS+qS\nvzEDomC+J9WcO53y74sbbborLNT3SI4JCUnD0EPD26x7yBP5tjY6fjKM/0H/XkCA\nhwaHkk11RBZB9kKuwWLNXUK4JGgd5QUdP/BP737Yu7tnKYpQ6ER5E4KK6YULH06t\nXFuEhYwvZvyYMfwj2ROUHh5AXBTOAwrBcP3+PhECgYEAynjFmV0ie2tbBDLpcdHz\nQziVMVo3VT+CDvG8KLEFpx68N01OlS60zF+a5G5L36AbY38mn104W9RsFbSSy+Q0\nn2eeyNO1YgcsHMWJW2s+ZZK6bPWMD9FNqV73KetUEsFI/Tku2qIr7mxqMa5HLOwU\nFoRoexmdkZpSys+e5tmCChk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-110@medvarsity.iam.gserviceaccount.com",
+  "client_id": "109587297067084372620",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-110%40medvarsity.iam.gserviceaccount.com"
+}
