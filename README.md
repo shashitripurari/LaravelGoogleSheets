@@ -7,56 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Task to be done
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Do the basic user authentication process
+2. Read the google sheet data and insert into the database.
+3. In google sheet there is is_sync column 0 to read the data, if 1 you need to skip the data.
+4. Next time if duplicate data is found from sheet you have to skip and update the duplicate flag in sheet.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Google Sheet
+https://docs.google.com/spreadsheets/d/1S_y2W_CfSFnOUOv3MMKdCAtV9chztPST5XlT8sepN78/edit?usp=sharing
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Google Sheets for Laravel Installation
 
-## Learning Laravel
+- git clone this project
+- composer install 
+- npm install && npm run dev
+- connect to the database from .env file
+- php artisan key:generate
+- php artisan serve
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Add .env variables
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- GOOGLE_APPLICATION_NAME="Medvarsity"
+- GOOGLE_CLIENT_ID="127769315959-n52331vsfrk50akmipg5ms8uf96s1uio.apps.googleusercontent.com"
+- GOOGLE_CLIENT_SECRET="wG2HTZMbiELc603m0xZHioGl"
 
-## Laravel Sponsors
+- GOOGLE_DEVELOPER_KEY="AIzaSyD6I1FUaCg9m6dA0VbrWFZ4OnPD4eiwAZo"
+- GOOGLE_SERVICE_ENABLED=true
+- GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION="../storage/medvarsity-203385b28f38.json"
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- SPREADSHEET_ID="1S_y2W_CfSFnOUOv3MMKdCAtV9chztPST5XlT8sepN78"
+- SHEET_NAME="Users"
