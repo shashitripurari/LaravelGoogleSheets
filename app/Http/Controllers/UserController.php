@@ -68,13 +68,14 @@ class UserController extends Controller
 
             // from the is_sync column we are checking if this user is considered to store in our database (i.e if is_sync is 1 process the record)
             $existing_user = User::where('email', $user['email'])->first();
-            
+    
             if (!($user['is_sync']) && !($existing_user)) {
+            
                 User::create(['name' => $user['name'], 'email' => $user['email'], 'password' => bcrypt('secret')]);
 
                 // As the user is created in our database we are not considering this user for the next time i.e when the same sheet is uploaded this user will be skipped
 
-                $updated_user = [$user['name'], $user['name'], "1"];
+                $updated_user = [$user['name'], $user['email'], "1"];
 
                 array_push($updated_users, $updated_user);
             }else{
